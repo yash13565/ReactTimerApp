@@ -1,0 +1,27 @@
+.mainHeading{
+    color:darkgray;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.timer{
+    color: white;
+    font-weight: bold;
+}
+.timerBox{
+background-color: #90e0ef;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+width: 50%;
+height: 280px;
+border-radius: 10px;
+margin-top: 20px;
+}
+.buttonContainer{
+    display: flex;
+    gap: 10px;
+}

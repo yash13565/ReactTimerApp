@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# React Timer App with Task Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that features a timer with start, pause, and save functionality, along with task management.
 
-## Available Scripts
+## Timer Features
 
-In the project directory, you can run:
+### Digital Clock Display
 
-### `npm start`
+The app displays a digital clock in the format HH:mm:ss, representing a stopwatch.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Timer Control Buttons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Start**: Initiates the timer.
+- **Pause**: Pauses the running timer.
+- **Save**: Saves the current task along with its title, description, and elapsed time.
 
-### `npm test`
+### Timer Stages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The timer has three stages:
 
-### `npm run build`
+1. **Started Stage**: Timer is started, only Pause and Save buttons are enabled, and Start button is disabled.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Paused Stage**: Timer is paused, only Save and Start buttons are enabled, and Pause button is disabled.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Save Stage**: Timer task along with task details can be saved.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Save Task Modal
 
-### `npm run eject`
+- When the "Save" button is clicked, a modal opens to save the task.
+- Modal contains two fields: Title and Description.
+- Modal includes two buttons: Save and Cancel.
+- On saving the task, the modal closes, and the task is added to the task list.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Additional Functionality
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Editing Task Description
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Each saved task in the list has an "Edit" button.
+- Clicking on the "Edit" button opens a modal where the user can edit the task description.
+- The user can then click "Save" to update the task description.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## STYLING
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I have use custom module css for styling purpose.

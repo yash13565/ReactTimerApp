@@ -1,0 +1,19 @@
+.buttons{
+    background-color: #000000;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+}
+.disabled{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+}
